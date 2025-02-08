@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType> <!-- Use WinExe for Windows Forms applications -->
+    <TargetFramework>net8.0-windows</TargetFramework> <!-- Add -windows to the target framework -->
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms> <!-- Enable Windows Forms support -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="7.6.0" /> <!-- EPPlus for Excel handling -->
+  </ItemGroup>
+
+</Project>
